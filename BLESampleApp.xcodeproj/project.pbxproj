@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615469082B0B8A72000A8A14 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619911E52B0895AB004581C3 /* Message.swift */; };
+		615469092B0B8A75000A8A14 /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619911E72B0895CB004581C3 /* MessageStore.swift */; };
+		6154690B2B0B9E7D000A8A14 /* AddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6154690A2B0B9E7D000A8A14 /* AddSheetView.swift */; };
 		619911892B088ED6004581C3 /* BLESampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619911882B088ED6004581C3 /* BLESampleAppApp.swift */; };
 		6199118B2B088ED6004581C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6199118A2B088ED6004581C3 /* ContentView.swift */; };
 		6199118D2B088ED7004581C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6199118C2B088ED7004581C3 /* Assets.xcassets */; };
@@ -22,6 +25,8 @@
 		619911C22B088ED9004581C3 /* BLESampleApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619911C12B088ED9004581C3 /* BLESampleApp_Watch_AppTests.swift */; };
 		619911CC2B088ED9004581C3 /* BLESampleApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619911CB2B088ED9004581C3 /* BLESampleApp_Watch_AppUITests.swift */; };
 		619911CE2B088ED9004581C3 /* BLESampleApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619911CD2B088ED9004581C3 /* BLESampleApp_Watch_AppUITestsLaunchTests.swift */; };
+		619911E62B0895AB004581C3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619911E52B0895AB004581C3 /* Message.swift */; };
+		619911E82B0895CB004581C3 /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619911E72B0895CB004581C3 /* MessageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6154690A2B0B9E7D000A8A14 /* AddSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheetView.swift; sourceTree = "<group>"; };
 		619911852B088ED6004581C3 /* BLESampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLESampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		619911882B088ED6004581C3 /* BLESampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLESampleAppApp.swift; sourceTree = "<group>"; };
 		6199118A2B088ED6004581C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +103,8 @@
 		619911C72B088ED9004581C3 /* BLESampleApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLESampleApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		619911CB2B088ED9004581C3 /* BLESampleApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLESampleApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		619911CD2B088ED9004581C3 /* BLESampleApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLESampleApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		619911E52B0895AB004581C3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		619911E72B0895CB004581C3 /* MessageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,7 @@
 		6199117C2B088ED6004581C3 = {
 			isa = PBXGroup;
 			children = (
+				619911E42B089594004581C3 /* Model */,
 				619911872B088ED6004581C3 /* BLESampleApp */,
 				619911982B088ED8004581C3 /* BLESampleAppTests */,
 				619911A22B088ED8004581C3 /* BLESampleAppUITests */,
@@ -178,6 +187,7 @@
 				6199118A2B088ED6004581C3 /* ContentView.swift */,
 				6199118C2B088ED7004581C3 /* Assets.xcassets */,
 				6199118E2B088ED7004581C3 /* Preview Content */,
+				6154690A2B0B9E7D000A8A14 /* AddSheetView.swift */,
 			);
 			path = BLESampleApp;
 			sourceTree = "<group>";
@@ -241,6 +251,15 @@
 				619911CD2B088ED9004581C3 /* BLESampleApp_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "BLESampleApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		619911E42B089594004581C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				619911E52B0895AB004581C3 /* Message.swift */,
+				619911E72B0895CB004581C3 /* MessageStore.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,8 +484,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619911E62B0895AB004581C3 /* Message.swift in Sources */,
+				6154690B2B0B9E7D000A8A14 /* AddSheetView.swift in Sources */,
 				6199118B2B088ED6004581C3 /* ContentView.swift in Sources */,
 				619911892B088ED6004581C3 /* BLESampleAppApp.swift in Sources */,
+				619911E82B0895CB004581C3 /* MessageStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,8 +513,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615469082B0B8A72000A8A14 /* Message.swift in Sources */,
 				619911B32B088ED8004581C3 /* ContentView.swift in Sources */,
 				619911B12B088ED8004581C3 /* BLESampleAppApp.swift in Sources */,
+				615469092B0B8A75000A8A14 /* MessageStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +690,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BLESampleApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 44HRTG996V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BLESampleApp;
@@ -695,6 +720,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BLESampleApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 44HRTG996V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BLESampleApp;
@@ -726,6 +752,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BLESampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 44HRTG996V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BLESampleApp;
@@ -758,6 +785,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BLESampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 44HRTG996V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BLESampleApp;

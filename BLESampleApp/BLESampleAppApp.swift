@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BLESampleAppApp: App {
+    @StateObject var messageStore: MessageStore = .init()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(messageStore)
         }
     }
 }
